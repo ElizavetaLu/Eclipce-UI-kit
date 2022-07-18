@@ -1,0 +1,147 @@
+
+ .container-lg {
+    .first_line {
+        .d-flex.justify-content-between {
+            .d-flex {
+                .d-flex.align-items-center {
+                    font-size: 40px;
+                    font-weight: 700;
+                    color: #fff;
+                    margin-right: 30px;
+                }
+            }
+        }
+    }
+    .third_line {
+        .row {
+            .col {
+                .first{
+                    margin-top: 30px;
+                    font-size: 16px;
+                    font-weight: 700;
+                    color: #fff;
+                }
+                .second{
+                    display: flex;
+                    .money {
+                    font-size: 28px;
+                    font-weight: 700;
+                    color: #fff;
+                    }
+                    .percent {
+                    font-size: 16px;
+                    font-weight: 700;
+                    color: #24CA49;
+                    display: flex;
+                    align-items: center;
+                    margin-left: 10px;
+                    }
+                    .percent.red {
+                    color: #FD4438;
+                    }
+                }
+                .third {
+                    color: #fff;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    .line {
+        margin: 30px 0px;
+        width: 100%;
+        height: 1px;
+        background-color: #E2E2EA;
+    }
+
+    .fourth {
+        .row{
+            color: #fff;
+            .col.rounded.m-3.rounded {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #000;
+            }
+            .col.my-2{
+                color: #fff;
+                font-size: 20px;
+                font-weight: 600;
+            }
+
+            .col.rounded.m-3.d-flex.align-items-center {
+                background-color: #000;
+                .circle {
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background-color: purple;
+                }
+            }
+        }
+    }
+}
+.pt-5 {
+    color: #fff;
+    .container-lg {
+        .row {
+            .col {
+                .col.d-flex.justify-content-between {
+                    .text {
+                        font-size: 28px;
+                        font-weight: 600;
+                        color: #fff;
+                    }
+                    .d-flex {
+                        .d-flex.align-items-center {
+                            width: 42px;
+                            border-radius: 10px;
+                            background-color: #000;
+
+                        }
+                    }
+
+                }
+            }
+            .col.right {
+                .text {
+                    font-size: 28px;
+                    font-weight: 600;
+                    color: #fff;
+
+                }
+
+            }
+            .row.my-3 {
+                .col {
+                    .card {
+                        background-color: #000;
+                        color: #fff;
+                        .card-body.text-start.py-4 {
+                            .card-title {
+                                font-size: 14px;
+                                font-weight: 400;
+                                color: #fff;
+                            }
+                            .amount {
+                                font-size: 20px;
+                                font-weight: 600;
+                                color: #fff;
+                            }
+                            .percent {
+                                font-size: 14px;
+                                font-weight: 600;
+                                color: #24CA49;
+                            }
+                            .percent.red {
+                                color: #FD4438;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
